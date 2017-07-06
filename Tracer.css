@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  padding: 0;
+  color: #000;
+background-color: #515151;
+}
+body {
+  text-align: center;
+}
+li {
+  margin: 10px;
+  list-style: none;
+}
+.Name{
+  font-size: 35px;
+}
+.wrap {
+  width: 750px
+  margin: 0 auto;
+}
+.main {
+  border: 5px solid rgb(183, 14, 68);
+  float:left;
+  width: 35%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.skillsheader1 {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.skills1{
+  column-count: 2;
+  column-gap: normal;
+  column-width: 1%;
+  column-fill: balance;
+
+}
+.sidebar {
+  float:right;
+  border: 5px solid rgb(183, 14, 68);
+  width: 35%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.headshot {
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+max-width: 200px;
+max-height: 300px;
+}
+.abouttext {
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.aboutheader {
+  font-size: 25px;
+
+}
+p {
+  font-size: 15px;
+
+}
+h1, p {
+  font-family: Georgia, sans-serif;
+  color: #7791ce;
+  }
+  /*
+  .everything{
+    text-align: left;
+  }
+}
+.Name {
+  font-size: 25px;
+
+}
+.skills {
+
+}
+.title1 {
+  font-size: 20px;
+
+}
+.About {
+Border: 5px solid #9ab2ea;
+width: 300px;
+}
+*/
