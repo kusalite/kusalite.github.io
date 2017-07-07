@@ -28,7 +28,7 @@ li {
   margin-right: 5%;
   margin-left: 5%;
 }
-.skillsheader1 {
+.skillsHeader1 {
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -38,7 +38,6 @@ li {
   column-gap: normal;
   column-width: 1%;
   column-fill: balance;
-
 }
 .sidebar {
   float:right;
@@ -47,21 +46,26 @@ li {
   margin-left: 5%;
   margin-right: 5%;
 }
-.headshot {
+.headshot img {
 margin-left: auto;
 margin-right: auto;
 margin-top: 10px;
+margin-bottom: 10px;
 max-width: 200px;
 max-height: 300px;
 }
-.abouttext {
+.aboutText {
   margin: auto;
   padding-left: 10px;
   padding-right: 10px;
 }
-.aboutheader {
+.aboutHeader {
   font-size: 25px;
 
+}
+i {
+  color: #7791ce;
+  font-size: 25px;
 }
 p {
   font-size: 15px;
