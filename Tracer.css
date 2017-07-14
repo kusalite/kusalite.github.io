@@ -39,6 +39,15 @@ li {
   column-width: 1%;
   column-fill: balance;
 }
+.jobsHeader {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  float: auto;
+}
+.pastJobs {
+  float: inherit;
+}
 .sidebar {
   float:right;
   border: 5px solid rgb(183, 14, 68);
@@ -54,6 +63,9 @@ margin-bottom: 10px;
 max-width: 200px;
 max-height: 300px;
 }
+.contactInfo {
+  letter-spacing: 0.25em;
+}
 .aboutText {
   margin: auto;
   padding-left: 10px;
@@ -65,7 +77,6 @@ max-height: 300px;
 }
 i {
   color: #7791ce;
-  font-size: 25px;
 }
 p {
   font-size: 15px;
