@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 html {
   margin: 0;
   padding: 0;
@@ -11,8 +9,8 @@ body {
   text-align: center;
 }
 li {
-  margin: 10px;
-  list-style: none;
+  margin: 5px;
+  /*list-style: none;*/
 }
 .Name{
   font-size: 35px;
@@ -34,19 +32,23 @@ li {
   margin-right: auto;
 }
 .skills1{
-  column-count: 2;
-  column-gap: normal;
-  column-width: 1%;
+  column-count: 3;
+  column-gap: 10px;
   column-fill: balance;
+  margin-right: 10%;
+  margin-left: 10%;
+  vertical-align: text-top;
 }
 .jobsHeader {
   margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  float: auto;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 .pastJobs {
   float: inherit;
+}
+.EXPlist {
+  text-align: left;
 }
 .sidebar {
   float:right;
@@ -54,6 +56,7 @@ li {
   width: 35%;
   margin-left: 5%;
   margin-right: 5%;
+  padding-bottom: 1%;
 }
 .headshot img {
 margin-left: auto;
