@@ -6,14 +6,14 @@ html {
 background-color: #515151;
 }
 body {
-  text-align: center;
 }
 li {
   margin: 5px;
   /*list-style: none;*/
 }
 .Name{
-  font-size: 35px;
+  text-align: center;
+  font-size: 75px;
 }
 .wrap {
   width: 750px
@@ -22,11 +22,15 @@ li {
 .main {
   border: 5px solid rgb(183, 14, 68);
   float:left;
-  width: 35%;
+  width: 45%;
   margin-right: 5%;
   margin-left: 5%;
 }
+.aboutText {
+  text-align: center;
+}
 .skillsHeader1 {
+  float: center;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -34,7 +38,28 @@ li {
 .skills1{
   margin-right: 10%;
   margin-left: 10%;
-  vertical-align: text-top;
+
+}
+.skills1, ul {
+  list-style: none;
+  padding: 0;
+}
+.skillSec1{
+  border-right: 20%;
+  float: left;
+  border: 1px solid blue; /*this is temporay */
+}
+.skillSec2{
+  width: 24%;
+  float: left;
+  border: solid red; /*this is also temporary */
+
+}
+.skillSec3{
+  width: 15%;
+  float: left;
+  border: 1px solid purple; /* also temporary*/
+
 }
 .jobsHeader {
   margin-top: 10px;
@@ -48,9 +73,10 @@ li {
   text-align: left;
 }
 .sidebar {
+  text-align: center;
   float:right;
   border: 5px solid rgb(183, 14, 68);
-  width: 35%;
+  width: 25%;
   margin-left: 5%;
   margin-right: 5%;
   padding-bottom: 1%;
@@ -82,7 +108,7 @@ p {
   font-size: 15px;
 
 }
-h1, p {
+h1, p, h2, li {
   font-family: Georgia, sans-serif;
   color: #7791ce;
   }
