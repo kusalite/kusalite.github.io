@@ -1,124 +1,146 @@
-
 html {
-  margin: 0;
-  padding: 0;
-  color: #000;
-background-color: #515151;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background-color: #515151;
 }
-body {
-}
+
+body {}
+
 li {
-  margin: 5px;
-  /*list-style: none;*/
+    margin: 5px;
+    list-style: none;
 }
-.Name{
-  text-align: center;
-  font-size: 75px;
+
+.Name {
+    text-align: center;
+    font-size: 75px;
 }
-.wrap {
-  width: 750px
-  margin: 0 auto;
-}
+
 .main {
-  border: 5px solid rgb(183, 14, 68);
-  float:left;
-  width: 45%;
-  margin-right: 5%;
-  margin-left: 5%;
+    border: 5px solid rgb(183, 14, 68);
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
-.aboutText, .skills, .pastJobs {
-  text-align: center;
-}
-.skillsHeader1 {
-  float: center;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.skills1{
- border: 1px red;
-  margin-right: 15%;
-  margin-left: 15%;
-  margin-bottom: 5%;
 
-}
-.skills1, ul {
-  list-style: none;
-  padding: 0;
-  text-align: center;
-}
-.skillSec1{
-  border-right: 25%;
-  float: left;
-  border: 1px; /*this is temporay */
-}
-.skillSec2{
-  width: 24%;
-  float: left;
-  border: 1px; /*this is also temporary */
-
-}
-.skillSec3{
-  width: 38%;
-  float: left;
-  border: 1px; /* also temporary*/
-
-}
-.jobsHeader {
-  margin-top: 10px;
-  margin-left: 15%;
-  margin-right: 15%;
-}
+.aboutText,
+.skills,
 .pastJobs {
-  float: inherit;
+    text-align: center;
 }
+
+.skillsHeader1,
+.qualHeader {
+    float: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills1 {  
+    border: 1px red;
+    margin-right: 15%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+.skills1,
+ul {
+    padding: 0;
+    text-align: center;
+}
+
+.skillSec1 {
+    float: left;
+}
+
+.skillSec2 {
+    float: left;
+}
+
+.qualifications {
+    overflow: visible;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+
+.jobsHeader {
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.pastJobs {
+    margin float: inherit;
+}
+.jobTitle{
+  font-size: 17px;
+  font-weight: bold;
+}
+
 .EXPlist {
-  text-align: left;
+    text-align: left;
+    margin-left: 10%;
 }
+
 .education {
-  overflow: inherit;
+    overflow: inherit;
 }
+
 .sidebar {
-  text-align: center;
-  float:right;
-  border: 5px solid rgb(183, 14, 68);
-  width: 25%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-bottom: 1%;
+    text-align: center;
+    float: right;
+    border: 5px solid rgb(183, 14, 68);
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 1%;
 }
+
 .headshot img {
-margin-left: auto;
-margin-right: auto;
-margin-top: 10px;
-margin-bottom: 10px;
-max-width: 200px;
-max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 200px;
+    max-height: 300px;
 }
+
 .contactInfo {
-  letter-spacing: 0.25em;
+    letter-spacing: 0.25em;
 }
+
 .aboutText {
-  margin: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
 .aboutHeader {
-  font-size: 25px;
-
+    font-size: 25px;
 }
+
 i {
-  color: #7791ce;
+    color: #7791ce;
 }
-p {
-  font-size: 15px;
 
+p {
+    font-size: 15px;
 }
-h1, p, h2, li {
-  font-family: Georgia, sans-serif;
-  color: #7791ce;
-  }
-  /*
+
+h1,
+p,
+h2,
+li {
+    font-family: Georgia, sans-serif;
+    color: #7791ce;
+}
+
+
+/*
   .everything{
     text-align: left;
   }
