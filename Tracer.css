@@ -9,7 +9,8 @@ body {}
 
 li {
     margin: 5px;
-    list-style: none;
+    /*list-style: none;*/
+    text-align: left;
 }
 
 .Name {
@@ -25,38 +26,50 @@ li {
     margin-left: 5%;
 }
 
-.skills,
+.skills, .habilidades,
 .pastJobs {
     text-align: center;
 }
 
-.skillsHeader1,
 .qualHeader {
-    float: center;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    float: center;
 }
 
-.skills1 {  
-    border: 1px red;
+.skillsHeader1,
+.habiHeader {
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+}
+
+.skills1, .habi1 {
     margin-right: 15%;
     margin-left: 25%;
     margin-bottom: 5%;
 }
 
-.skills1,
+.skills1, .habi1, 
 ul {
     padding: 0;
     text-align: center;
 }
-
-.skillSec1 {
-    float: left;
+/* use inine block instead of
+ using Float. cause float sucks*/
+.skillSec1, .habiSec1 {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 5%;
 }
 
-.skillSec2 {
-    float: left;
+.skillSec2, .habiSec2 {
+display: inline-block;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 5%;
 }
 
 .qualifications {
@@ -64,6 +77,10 @@ ul {
     margin-left: 25%;
     margin-right: 25%;
     text-align: center;
+}
+.qualf1{
+    text-align: left;
+    margin-left: 20%;
 }
 
 .jobsHeader {
@@ -75,9 +92,12 @@ ul {
 .pastJobs {
     margin float: inherit;
 }
-.jobTitle{
-  font-size: 17px;
-  font-weight: bold;
+
+.jobTitle {
+    font-size: 17px;
+    font-weight: bold;
+    list-style: none;
+    text-align: center;
 }
 
 .EXPlist {
@@ -113,7 +133,7 @@ ul {
 }
 
 .aboutText {
-  text-align: left;
+    text-align: left;
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
@@ -139,6 +159,7 @@ li {
     font-family: Georgia, sans-serif;
     color: #7791ce;
 }
+
 
 
 /*
