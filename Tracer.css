@@ -20,13 +20,15 @@ li {
 
 .main {
     border: 5px solid rgb(183, 14, 68);
-    float: left;
+    display: inline-block;
     width: 45%;
     margin-right: 2%;
     margin-left: 5%;
+    padding-bottom: 1%;
 }
 
-.skills, .habilidades,
+.qualifications,
+.habilidades,
 .pastJobs {
     text-align: center;
 }
@@ -38,49 +40,40 @@ li {
     float: center;
 }
 
-.skillsHeader1,
 .habiHeader {
     margin-left: auto;
     margin-right: auto;
     float: center;
 }
 
-.skills1, .habi1 {
+.habi1 {
     margin-right: 15%;
     margin-left: 25%;
     margin-bottom: 5%;
 }
 
-.skills1, .habi1, 
+.habi1,
 ul {
     padding: 0;
     text-align: center;
 }
+
+
 /* use inine block instead of
  using Float. cause float sucks*/
-.skillSec1, .habiSec1 {
+
+.sec1 {
     display: inline-block;
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 5%;
 }
 
-.skillSec2, .habiSec2 {
-display: inline-block;
-margin-top: 0;
-margin-bottom: 0;
-margin-left: 5%;
-}
-
-.qualifications {
-    overflow: visible;
-    margin-left: 25%;
-    margin-right: 25%;
-    text-align: center;
-}
-.qualf1{
-    text-align: left;
-    margin-left: 20%;
+.sec2 {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
 }
 
 .jobsHeader {
@@ -111,7 +104,7 @@ margin-left: 5%;
 
 .sidebar {
     text-align: center;
-    float: right;
+    display: inline-block;
     border: 5px solid rgb(183, 14, 68);
     width: 35%;
     margin-left: 5%;
@@ -144,6 +137,19 @@ margin-left: 5%;
     text-align: center;
 }
 
+.footer {
+    border: 5px solid rgb(183, 14, 68);
+    display: inline-block;
+    margin-top: 3%;
+    width: 50%
+}
+
+img,
+.Beetle {
+    max-width: 25%;
+    max-height: 25%;
+}
+
 i {
     color: #7791ce;
 }
@@ -152,6 +158,7 @@ p {
     font-size: 15px;
 }
 
+h3,
 h1,
 p,
 h2,
@@ -159,6 +166,7 @@ li {
     font-family: Georgia, sans-serif;
     color: #7791ce;
 }
+
 
 
 
