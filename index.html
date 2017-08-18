@@ -4,6 +4,7 @@
 <head>
     <script src="https://use.fontawesome.com/7eec4ec0a7.js"></script>
     <link rel="stylesheet" type="text/css" href="Tracer.css">
+    <script type="text/javascript" src="slideshow.js"></script>
     <meta charset="utf-8">
     <title>Noé Roman</title>
 </head>
@@ -83,9 +84,41 @@
     </div>
     </div>
     <div class="footer">
-        <h2 class="projectsHeader">Stuff I did</h2>
-        <h3>Debug Bettle design</h3>
-        <img class="Beetle" src="debug beetle.png" alt="beetle beetle">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="debug beetle.png" style="width:100%">
+                <div class="text">Debug Beetle</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="roboPhunk.JPG" style="width:100%">
+                <div class="text">Robot Phunk</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="greenDog.jpg" style="width:100%">
+                <div class="text">Happy Doggo</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="purpleMask.JPG" style="width:100%">
+                <div class="text">Mask Sticker Project</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+
+        </div>
+        <!--<h2 class="projectsHeader">Stuff I did</h2>
+        <h3>Debug Bettle design</h3>    
+        <img class="Beetle" src="debug beetle.png" alt="beetle beetle"> -->
     </div>
 </body>
 
